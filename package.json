@@ -1,0 +1,37 @@
+{
+  "name": "test-blog",
+  "version": "1.0.0",
+  "description": "Test de blog",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.8.3",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "regenerator-runtime": "^0.13.7",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "webpack": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryneminetto/test-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryneminetto/test-blog/issues"
+  },
+  "homepage": "https://github.com/maryneminetto/test-blog#readme"
+}
