@@ -7,6 +7,7 @@ module.exports = {
   entry: {
     main: path.join(__dirname, "src/index.js"),
     form: path.join(__dirname, "src/form/form.js"),
+    topbar: path.join(__dirname, "src/assets/javascript/topbar.js")
   },
   output: {
     path: path.join(__dirname, "dist"),
