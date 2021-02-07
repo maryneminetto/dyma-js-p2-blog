@@ -7,6 +7,7 @@
 
 Le projet de Blog est le deuxième projet de la formation JavaScript de Dyma.fr.
 **Il est soumis au Creative Common et ne peut être reproduit sans mention de l'auteur: dyma.fr.**
+*Le lien n'est pas disponible car l'accès aux sources de l'API n'est pas disponible."
 
 C'est un projet qui se présente en deux temps:
 + Un premier temps où nous mettons en place la création d'articles et l'affichage sur la page d'accueil (interaction avec API Rest).
