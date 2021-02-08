@@ -32,6 +32,14 @@ const createArticles = articles => {
   articleContainerElement.innerHTML = "";
   articleContainerElement.append(...articlesDOM);
   const deleteButtons = articleContainerElement.querySelectorAll(".btn-danger");
+  const editButtons = articleContainerElement.querySelectorAll(".btn-primary");
+  editButtons.forEach(button => {
+    button.addEventListener("click", event => {
+      const target = event.target;
+      const articleId = target.dataset.id;
+      window.location.assign(`/form.html?id=${articleId}`);
+    });
+  });
   deleteButtons.forEach(button => {
     button.addEventListener("click", async event => {
       try {
