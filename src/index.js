@@ -24,6 +24,7 @@ const createArticles = articles => {
 </p>
 <div class="article-actions">
   <button class="btn btn-danger" data-id=${article._id} >Supprimer</button>
+  <button class="btn btn-primary" data-id=${article._id} >Modifier</button>
 </div>
 `;
     return articleDOM;
